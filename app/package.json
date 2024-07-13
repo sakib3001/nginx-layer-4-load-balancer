@@ -1,0 +1,15 @@
+{
+  "name": "dynamic-server-id",
+  "version": "1.0.0",
+  "description": "Node.js application with dynamic server ID",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
