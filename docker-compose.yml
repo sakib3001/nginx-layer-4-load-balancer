@@ -1,9 +1,10 @@
 version: "3.8"
 services:
     nginx:
-     build:
-      context: ./nginx
-      dockerfile: Dockerfile
+     # build:
+     #  context: ./nginx
+     #  dockerfile: Dockerfile
+     image: nginx:1.21-alpine
      hostname: nginx
      container_name: layer-4-load-balancer
      networks:
